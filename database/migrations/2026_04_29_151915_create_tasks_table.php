@@ -25,6 +25,9 @@ return new class extends Migration
     public function down(): void
     {
         Schema::dropIfExists('tasks');
+        $table->foreignId('user_id')->constrained()->onDelete('cascade');
     }
+
+    
 };
 

@@ -10,6 +10,9 @@
 
 @yield('content')
 
+
+<a href="/tasks">Tasks</a> |
+<a href="/dashboard">Dashboard</a>
 <hr>
 <footer>© 2026</footer>
 
